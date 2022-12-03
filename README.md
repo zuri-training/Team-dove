@@ -23,7 +23,7 @@ You can equally contribute to the libraries via comments as long as you are a re
 **Project Links**
 
 View Github Repository: https://github.com/zuri-training/Team-dove
-View Figma Design:
+View Figma Design:https://www.figma.com/file/O6pbYL4wxUULTv0A4gWbwd/TEAM-DOVE?node-id=0%3A1&t=zdBJKQzlByVTkgq6-1
 View Database Schema: 
 View Project’s Live URL: 
 
