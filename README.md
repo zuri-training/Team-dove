@@ -71,7 +71,8 @@ This is a web application built using a PHP framework called Laravel. This frame
 •	Moyinoluwa Ojo
 •	Anne Aleje
 •	Ezechukwu Ruth
-
+        Temitope Ajayi
+        Victoria Ogundele
 **Development Team**
 •	Dorcas Samuel (Fullstack)
 •	Christopher Adeyemi (Backend)
