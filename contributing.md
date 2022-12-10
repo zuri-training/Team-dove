@@ -1,4 +1,4 @@
-Steps for handling your tasks and making pull requests:
+**Steps for handling your tasks and making pull requests:**
 
 Tasks will be assigned to us in Github using issues. So before you start the steps below, go to our repository page on github: 
 
@@ -11,8 +11,8 @@ https://github.com/zuri-training/Team-dove/issues
 Click on the issue that was raised in your name and read the instructions. By the right hand side, you will see the status of the issue under the “Projects” section. Set it from “Todo” to “In progress”.
 
 
-Then proceed with the steps below:
-Step 1 (Cloning Repo):
+**Then proceed with the steps below:**
+**Step 1 (Cloning Repo):**
 
 If you’re a collaborator, go to the Github Repo page, Git Clone the project, and cd into the directory. 
 
@@ -22,7 +22,7 @@ Git clone https://github.com/zuri-training/Team-dove.git
 
 cd Team-Dove
 
-Step 2 (Branching):
+**Step 2 (Branching):**
 
 Create a branch for the feature you want to work on (assuming its login_page)
 
@@ -34,13 +34,13 @@ git branch
 
 You’re now in your new branch and can start coding away.
 
-Step 3 (Making Commits):
+**Step 3 (Making Commits):**
 
 Note: As a general rule, you should git add frequently and git commit when you finish something that allows your code to work (ends up being a couple times an hour). For example, when you finish a method and the code base works, git commit like so:
 
 git commit -m "Added function to allow Users to say 'Hello World'"
 
-Step 3 (Submitting Pull Requests):
+**Step 4 (Submitting Pull Requests):**
 
 Git push your branches
 
