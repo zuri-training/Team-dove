@@ -13,6 +13,13 @@
 :root
 {
     --color-main: #1C3AA9;
+    --color-php: #DEDFED;
+    --color-node: #DCEFDC;
+    --color-python: #FFF5CC;
+    --color-cplus: #CCE7FF;
+    --color-csharp: #EED7F4;
+    --color-java: #FBD0D1;
+    --color-laravel: #FFCFCC;
 }
 
 h1, h2, h3 { font-weight: 800; font-family: 'Inter', sans-serif;}
@@ -37,8 +44,54 @@ h4, h5, h6 { font-weight: 600; font-family: 'Inter', sans-serif;}
     background-color: var(--color-main);
 }
 
+.bg-php
+{
+    background-color: var(--color-php);
+}
+
+.bg-node
+{
+    background-color: var(--color-node);
+}
+
+.bg-python
+{
+    background-color: var(--color-python);
+}
+
+.bg-cplus
+{
+    background-color: var(--color-cplus);
+}
+
+.bg-java
+{
+    background-color: var(--color-java);
+}
+
+.bg-csharp
+{
+    background-color: var(--color-csharp);
+}
+
+.bg-laravel
+{
+    background-color: var(--color-laravel);
+}
+
 .text-main
 {
     color: var(--color-main);
+}
+
+.link-plain
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.section
+{
+    min-height: 70vh;
 }
 
