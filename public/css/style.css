@@ -1,0 +1,138 @@
+@import url('https://fonts.cdnfonts.com/css/inter?styles=29139,29140,29130');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+:root
+{
+    --color-main: #1C3AA9;
+    --color-php: #DEDFED;
+    --color-node: #DCEFDC;
+    --color-python: #FFF5CC;
+    --color-cplus: #CCE7FF;
+    --color-csharp: #EED7F4;
+    --color-java: #FBD0D1;
+    --color-laravel: #FFCFCC;
+}
+
+h1, h2, h3 { font-weight: 800; font-family: 'Inter', sans-serif;}
+h4, h5, h6 { font-weight: 600; font-family: 'Inter', sans-serif;}
+
+.btn-main
+{
+    background-color: var(--color-main);
+    color: #ffffff;
+    transition: all ease-in-out .03s;
+}
+
+.btn-main:hover
+{
+    box-shadow: 2px 2px 5px#879ff9; 
+    background-color: var(--color-main);
+    color: #ffffff;
+}
+
+.bg-main
+{
+    background-color: var(--color-main);
+}
+
+.bg-php
+{
+    background-color: var(--color-php);
+}
+
+.bg-node
+{
+    background-color: var(--color-node);
+}
+
+.bg-python
+{
+    background-color: var(--color-python);
+}
+
+.bg-cplus
+{
+    background-color: var(--color-cplus);
+}
+
+.bg-java
+{
+    background-color: var(--color-java);
+}
+
+.bg-csharp
+{
+    background-color: var(--color-csharp);
+}
+
+.bg-laravel
+{
+    background-color: var(--color-laravel);
+}
+
+.text-main
+{
+    color: var(--color-main);
+}
+
+.link-plain
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.section
+{
+    min-height: 70vh;
+}
+
+
+
+
+/*Footer Styles*/
+body{
+    font-family: 'Inter';
+font-style: normal;
+}
+
+
+
+footer{
+    box-sizing: border-box;
+color: white;
+background: #1C3AA9;
+
+
+}
+
+
+form{
+    border-radius: 5px;
+}
+form, input{
+    font-family: FontAwesome, 
+}
+.install {
+    margin-top: 70px;  
+}
+.about-us {
+    margin-top: 70px;   
+}
+
+.get-help{
+    margin-top: 70px;    
+}
+.signup{
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 16px;
+}
