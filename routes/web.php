@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function(){
+//     return view('footer',);
+// });
+
 Route::get('/', function(){
-    return view('footer');
+    return view('header');
 });
