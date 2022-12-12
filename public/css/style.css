@@ -59,61 +59,40 @@ h4, h5, h6 { font-weight: 600; font-family: 'Inter', sans-serif;}
     color: #ffffff;
 }
 
-.bg-main
-{
-    background-color: var(--color-main);
-}
+/*
+** Backgrounds
+*/
 
-.bg-php
-{
-    background-color: var(--color-php);
-}
+.bg-main { background-color: var(--color-main); }
 
-.bg-node
-{
-    background-color: var(--color-node);
-}
+.bg-php { background-color: var(--color-php); }
 
-.bg-python
-{
-    background-color: var(--color-python);
-}
+.bg-node { background-color: var(--color-node); }
 
-.bg-cplus
-{
-    background-color: var(--color-cplus);
-}
+.bg-python { background-color: var(--color-python); }
 
-.bg-java
-{
-    background-color: var(--color-java);
-}
+.bg-cplus { background-color: var(--color-cplus); }
 
-.bg-csharp
-{
-    background-color: var(--color-csharp);
-}
+.bg-java { background-color: var(--color-java); }
 
-.bg-laravel
-{
-    background-color: var(--color-laravel);
-}
+.bg-csharp { background-color: var(--color-csharp); }
 
-.text-main
-{
-    color: var(--color-main);
-}
+.bg-laravel { background-color: var(--color-laravel); }
 
-.link-plain
-{
-    text-decoration: none;
-    color: inherit;
-}
+/*
+** Text styles
+*/
+.text-main { color: var(--color-main); }
 
-.section
-{
-    min-height: 70vh;
-}
+/*
+** Links
+*/
+.link-plain { text-decoration: none; color: inherit; }
+
+/*
+** Page sections
+*/
+.section { min-height: 70vh; }
 
 body.auth
 {
