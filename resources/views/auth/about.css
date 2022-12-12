@@ -1,0 +1,109 @@
+.about {
+    /* width: 1000px;
+    height: 514px;
+    background-color: red;
+    color: white; */
+    margin-left: 80px;
+    margin-top: 150px;
+    /* display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; */
+}
+
+.abt-heading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    color: #1c3aa9;
+}
+
+.about p {
+    width: 811px;
+    height: 182px;
+    left: 85px;
+    top: 306px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    /* text color */
+
+    color: #3e3d3d;
+}
+
+.why {
+    width: 1100px;
+    height: 619px;
+    margin-left: 78px;
+    /* margin-top: 613px; */
+    background: #d5e6fb;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* padding-right: 20px; */
+}
+
+.why img {
+    margin-top: 10px;
+}
+
+.why2 h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    color: #1c3aa9;
+}
+
+.multi {
+    padding-right: 50px;
+    text-align: center;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.abt-footer {
+    margin-top: 50px;
+}
+
+.abt-footer .heading {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #1c3aa9;
+    text-align: center;
+}
+
+.team-images {
+    display: flex;
+    gap: 60px;
+    margin-left: 82px;
+}
+
+.img-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.role {
+    margin-top: -40px;
+}
