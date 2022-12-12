@@ -1,5 +1,12 @@
+/*
+** Font import
+*/
 @import url('https://fonts.cdnfonts.com/css/inter?styles=29139,29140,29130');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/*
+** Resets
+*/
 
 *
 {
@@ -9,6 +16,10 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
 }
+
+/*
+** Variable definitions
+*/
 
 :root
 {
@@ -22,8 +33,17 @@
     --color-laravel: #FFCFCC;
 }
 
+/*
+** Title
+*/
+
 h1, h2, h3 { font-weight: 800; font-family: 'Inter', sans-serif;}
 h4, h5, h6 { font-weight: 600; font-family: 'Inter', sans-serif;}
+
+
+/*
+** Buttons
+*/
 
 .btn-main
 {
@@ -39,100 +59,37 @@ h4, h5, h6 { font-weight: 600; font-family: 'Inter', sans-serif;}
     color: #ffffff;
 }
 
-.bg-main
-{
-    background-color: var(--color-main);
-}
+/*
+** Backgrounds
+*/
 
-.bg-php
-{
-    background-color: var(--color-php);
-}
+.bg-main { background-color: var(--color-main); }
 
-.bg-node
-{
-    background-color: var(--color-node);
-}
+.bg-php { background-color: var(--color-php); }
 
-.bg-python
-{
-    background-color: var(--color-python);
-}
+.bg-node { background-color: var(--color-node); }
 
-.bg-cplus
-{
-    background-color: var(--color-cplus);
-}
+.bg-python { background-color: var(--color-python); }
 
-.bg-java
-{
-    background-color: var(--color-java);
-}
+.bg-cplus { background-color: var(--color-cplus); }
 
-.bg-csharp
-{
-    background-color: var(--color-csharp);
-}
+.bg-java { background-color: var(--color-java); }
 
-.bg-laravel
-{
-    background-color: var(--color-laravel);
-}
+.bg-csharp { background-color: var(--color-csharp); }
 
-.text-main
-{
-    color: var(--color-main);
-}
+.bg-laravel { background-color: var(--color-laravel); }
 
-.link-plain
-{
-    text-decoration: none;
-    color: inherit;
-}
+/*
+** Text styles
+*/
+.text-main { color: var(--color-main); }
 
-.section
-{
-    min-height: 70vh;
-}
+/*
+** Links
+*/
+.link-plain { text-decoration: none; color: inherit; }
 
-
-
-
-/*Footer Styles*/
-body{
-    font-family: 'Inter';
-font-style: normal;
-}
-
-
-
-footer{
-    box-sizing: border-box;
-color: white;
-background: #1C3AA9;
-
-
-}
-
-
-form{
-    border-radius: 5px;
-}
-form, input{
-    font-family: FontAwesome, 
-}
-.install {
-    margin-top: 70px;  
-}
-.about-us {
-    margin-top: 70px;   
-}
-
-.get-help{
-    margin-top: 70px;    
-}
-.signup{
-    margin-top: 30px;
-    line-height: 30px;
-    font-size: 16px;
-}
+/*
+** Page sections
+*/
+.section { min-height: 70vh; }
