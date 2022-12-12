@@ -20,7 +20,7 @@
 @include('layout.topbar')
 <nav class="navbar navbar-expand-lg px-3">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="{{ route('home') }}">
             <img src="{{ asset('images/logo.png') }}" alt="logo" height="40px">
         </a>
     </div>
