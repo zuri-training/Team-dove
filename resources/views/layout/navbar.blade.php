@@ -28,7 +28,7 @@
                 <li class="nav-item mx-3">
                     <a class="nav-link" aria-current="page" href="#">Login</a>
                 </li>
-                <a href="#" class="btn btn-main">Get Started</a>
+                <a href="{{ route('register') }}" class="btn btn-main">Get Started</a>
             </ul>
         </div>
     </div>

@@ -93,3 +93,11 @@ h4, h5, h6 { font-weight: 600; font-family: 'Inter', sans-serif;}
 ** Page sections
 */
 .section { min-height: 70vh; }
+
+body.auth
+{
+    background: url('../images/bg-auth-pages.png');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: top right ;
+}
