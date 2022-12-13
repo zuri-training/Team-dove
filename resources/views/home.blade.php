@@ -30,7 +30,7 @@
             <p>
                 Auth_wiki is an open source platform, built and maintained by developers like you, to make the work easier for everyone.
             </p>
-            <a href="#" class="btn btn-main btn-lg">Get Started</a>
+            <a class="btn btn-main btn-lg" href="{{ route('register') }}">Get Started</a>
         </div>
         <div class="col-12 col-md-6 mb-4 text-center">
             <img src="{{asset('images/hero-image.png')}}" alt="hero-image" height="400px">
@@ -163,7 +163,6 @@
         </div>
     </div>
 </section>
-
 
 @include('layout.footer')
 
