@@ -13,7 +13,7 @@
     <!--Import favicon-->
     <link rel="shortcut icon" href="{{ asset('images/favicon.png') }}" type="image/x-icon">
 
-    <title>Login - Auth_Wiki - Team Dove</title>
+    <title>Confirm your Email - Auth_Wiki - Team Dove</title>
 </head>
 <body class="auth">
 
@@ -28,36 +28,29 @@
 </nav>
 <section class="container" id="hero-auth">
     <div class="row section align-items-center justify-content-start my-5">
-        <div class="col-12 col-md-6 mb-4">
-            <h1 class="text-main my-4">Sign in to continue</h1>
+        <div class="col-12 col-md-5 mb-4">
+            <h1 class="text-main my-2">Forgot Password</h1>
+            <p class="mb-4">Fill in the email address you used to register.</p>
             <form action="#" method="post">
-        
+                @csrf
                 <div class="form-row">
                     <div class="col mb-4">
-                        <input type="email" name="email" id="email" class="form-control form-control-lg" placeholder="Email">
+                        <label for="confirm-email">Enter your email</label>
+                        <input type="email" name="confirm_email" id="confirm_email" class="form-control form-control-lg mt-2" placeholder="you@example.com">
                     </div>
                 </div>
-                <div class="form-row">
-                    <div class="col mb-4">
-                        <input type="password" name="password" id="password" class="form-control form-control-lg" placeholder="Password">
-                    </div>     
-                </div>
-                <div class="form-row">
-                    <div class="col mb-3">
-                        <button type="submit" name="Login-page" class="btn btn-main btn-lg">Login</button>
+                <div class="row align-items-center justify-content-between">
+                    <div class="col mb-3 d-grid">
+                        <button type="submit" name="send_link" class="btn btn-main btn-lg d-inline">Send reset link</button>
                     </div>
-                </div>
-                <div class="form-row">
-                    <div class="col mb-3 text-main lead">
-                        <a href="{{ route('confirm-email') }}" class="link-plain">Forgot Password?</a>
+                    <div class="col mb-3 d-grid">
+                        <a href="{{ route('login') }}" class="btn btn-light btn-lg border border-primary">Back</a>
                     </div>
                 </div>
             </form>
         </div>
     </div>  
 </section>
-
-@include('layout.footer')
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
