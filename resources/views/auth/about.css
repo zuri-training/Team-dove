@@ -1,28 +1,19 @@
-.about {
-    /* width: 1000px;
-    height: 514px;
-    background-color: red;
-    color: white; */
+/* .about {
     margin-left: 80px;
     margin-top: 150px;
-    /* display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center; */
-}
+} */
 
-.abt-heading {
+/* .abt-heading {
     font-family: "Inter";
     font-style: normal;
     font-weight: 900;
     font-size: 36px;
     line-height: 44px;
-    /* identical to box height */
 
     color: #1c3aa9;
-}
+} */
 
-.about p {
+/* .about p {
     width: 811px;
     height: 182px;
     left: 85px;
@@ -33,23 +24,19 @@
     font-size: 20px;
     line-height: 30px;
 
-    /* text color */
-
     color: #3e3d3d;
-}
+} */
 
-.why {
+/* .why {
     width: 1100px;
     height: 619px;
     margin-left: 78px;
-    /* margin-top: 613px; */
     background: #d5e6fb;
     display: flex;
     gap: 50px;
     text-align: center;
     justify-content: center;
     align-items: center;
-    /* padding-right: 20px; */
 }
 
 .why img {
@@ -62,7 +49,6 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 39px;
-    /* identical to box height */
 
     color: #1c3aa9;
 }
@@ -106,4 +92,18 @@
 
 .role {
     margin-top: -40px;
+} */
+
+.container2 {
+    background: #d5e6fb !important;
+    gap: 50px;
+}
+
+.why {
+    margin-top: -50px !important;
+    margin-right: 50px !important;
+}
+
+.imgc {
+    margin-left: -10px;
 }
