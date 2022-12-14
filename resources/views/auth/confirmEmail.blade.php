@@ -40,10 +40,10 @@
                     </div>
                 </div>
                 <div class="row align-items-center justify-content-between">
-                    <div class="col mb-3 d-grid">
+                    <div class="col-12 col-md-6 mb-3 d-grid">
                         <button type="submit" name="send_link" class="btn btn-main btn-lg d-inline">Send reset link</button>
                     </div>
-                    <div class="col mb-3 d-grid">
+                    <div class="col-12 col-md-6 mb-3 d-grid">
                         <a href="{{ route('login') }}" class="btn btn-light btn-lg border border-primary">Back</a>
                     </div>
                 </div>

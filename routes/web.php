@@ -21,5 +21,6 @@ Route::get('/about', function () { return view('about'); }) -> name('about');
 Route::get('/register', [RegisterController::class, 'index']) -> name('register');
 Route::get('/login', [LoginController::class, 'index']) -> name('login');
 Route::get('/confirmEmail', [ConfirmEmailController::class, 'index']) -> name('confirm-email');
+Route::post('/confirmEmail', [ConfirmEmailController::class, 'sendResetLink']);
 Route::get('/resetPassword', [ResetPasswordController::class, 'index']) -> name('reset-password');
 Route::post('/resetPassword', [ResetPasswordController::class, 'store']);
