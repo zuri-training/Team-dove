@@ -15,7 +15,8 @@ use App\Http\Controllers\ConfirmEmailController;
 |
 */
 
-Route::get('/', function () { return view('home'); } )-> name('home');
+Route::get('/', function () { return view('home'); }) -> name('home');
+Route::get('/about', function () { return view('about'); }) -> name('about');
 Route::get('/register', [RegisterController::class, 'index']) -> name('register');
 Route::get('/login', [LoginController::class, 'index']) -> name('login');
 Route::get('/confirmEmail', [ConfirmEmailController::class, 'index']) -> name('confirm-email');

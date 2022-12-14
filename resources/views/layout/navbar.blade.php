@@ -21,7 +21,7 @@
                     <a class="nav-link" href="#">Community</a>
                 </li>
                 <li class="nav-item mx-2">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="{{ route('about') }}">About</a>
                 </li>
             </ul>
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
