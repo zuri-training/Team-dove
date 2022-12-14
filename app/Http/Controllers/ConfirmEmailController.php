@@ -11,4 +11,9 @@ class ConfirmEmailController extends Controller
     {
         return view('auth.confirmEmail');
     }
+
+    public function sendResetLink(Request $request)
+    {
+        
+    }
 }
