@@ -101,3 +101,12 @@ body.auth
     background-size: 70%;
     background-position: top right ;
 }
+
+.intro-img-about
+{
+    height: 425px;
+    background: url('../images/intro-img-about.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
