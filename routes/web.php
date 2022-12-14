@@ -19,6 +19,7 @@ use App\Http\Controllers\ResetPasswordController;
 Route::get('/', function () { return view('home'); }) -> name('home');
 Route::get('/about', function () { return view('about'); }) -> name('about');
 Route::get('/register', [RegisterController::class, 'index']) -> name('register');
+Route::post('/register', [RegisterController::class, 'store']);
 Route::get('/login', [LoginController::class, 'index']) -> name('login');
 Route::get('/confirmEmail', [ConfirmEmailController::class, 'index']) -> name('confirm-email');
 Route::get('/resetPassword', [ResetPasswordController::class, 'index']) -> name('reset-password');
