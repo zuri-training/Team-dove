@@ -33,9 +33,7 @@ You can equally contribute to the libraries via comments as long as you are a re
 
 [View Database Schema](https://www.figma.com/file/JteVjRBHxYULvkZDLFA5qT/Auth_Wiki-Database-Schema---Team-Dove?node-id=0%3A1&t=N7BzKtqfH27JzhcV-1)
 
-[View Project’s Live URL]() 
-
-## Our Research Plan
+[View Project’s Live URL](https://authwiki.com.ng/) 
 
 
 ## Project Implementation
@@ -55,20 +53,20 @@ The authenticated users will also be able to show how satisfied they are and thi
 ### Backend Development
 1.	Language => PHP
 2.	Framework => (Laravel)
-3.	Libraries => (To be determined)
-4.	Database => (MySQL database)
+3.	Database => (MySQL database)
 
 ### Frontend Development
 1.	HTML
 2.	CSS
 3.	JavaScript
-4.	Library: React.js
-5.	Font Awesome Icons
+4.	Font Awesome Icons
 
 ## Requirements
 •	PHP (>= v8.1.10 recommended)
 
 •	Composer
+
+•	NPM
 
 •	MySQL or any database (update DB_CONNECTION in .env)
 
@@ -123,11 +121,11 @@ The authenticated users will also be able to show how satisfied they are and thi
 
 •	Babatunde Okunlola - Assistant Team lead (Fullstack)
 
-•	Obinna Akaolisa (Fullstack)
+•	Obinna Akaolisa - Dev. Team Lead (Fullstack)
 
 •	Dorcas Samuel (Fullstack)
 
-•	Christopher Adeyemi (Backend)
+•	Christopher Adeyemi Ass. Dev Team lead (Backend)
 
 •	Andrew Efomah (Frontend)
 
@@ -136,70 +134,6 @@ The authenticated users will also be able to show how satisfied they are and thi
 •	Siseku Oluwajuwon (Frontend)
 
 
-### Frontend Developers Guide
+## Contributing to the project
 
-For this project frontend developers will be pulling from the 'Frontend' branch and also making pull requests to the same branch. 
-
-The backend developers will be working on the 'secondary' and 'intermediate' branches. 
-
-All finalized changes will be merged with the main branch after proper screening.
-
-Frontend developers will be submitting tasks by making pull requests to the 'Frontend' branch of the parent repository
-
-
-### Backend Developers Guide
-
-Initial Setup Procedure for Backend developers
-
-Backend developers are allowed to clone the repository directly.
-
-Click on the 'code' button and copy the url of the repository. 
-
-On your local machine, open the command line or terminal and navigate to the directory you want to clone the repository into. 
-
-In the command line window, enter git clone <enter the url you copied here>, it should look like `git clone https://github.com/<your_username>/Team-dove.git.` 
-
-Press 'Enter', your repo should be cloned into your chosen directory now.
-
-Before working in your remote repository, it is necessary to switch to the branch you are to work on by running `git checkout origin/<branch_name>` e.g `git checkout origin/intermediate`.
-
-  
-*Pushing Code to the Repository*
-
-•	Stage and commit the changes made.
-
-•	When you want to push your code back to the remote repository, you should push directly to your specific branch. Run `git push origin HEAD:<branch_name>` e.g `git push origin HEAD:intermediate`.
-  
-**Pulling Changes made to your Branch from the Remote Repository**
-
-•	Fetch the changes that have been made to original repository using `git fetch origin`.
-
-•	Switch to your branch (if you are not already on it) using `git checkout origin/<branch_name>` e.g `git checkout origin/secondary`.
-
-•	Merge the changes from your remote branch to your local branch using `git merge origin/<branch_name>` e.g `git merge origin/secondary`.
-  
-
-
-**Frontend Developers Guide**
-
-*Initial Setup Procedures for Frontend developers:*
-
-Forking the Repository and Cloning it to your Local Machine
-
-•	Click on the Fork icon on the top-right of the repository's page and fork the repository. 
-
-Your fork should now be created with the directory `<your_username>/Team-dove`. 
-
-Next, you need to clone it to your local machine/computer.
-
-•	Click on the 'code' button and copy the url of the repo. 
-
-On your local machine, open the command line or terminal and navigate to the directory you want to clone the repository into. 
-
-In the command line window, enter `git clone <enter the url you copied here>`, it should look like `git clone https://github.com/<your_username>/Team-dove.git`. 
-
-Press 'Enter', your repo should be cloned into your chosen directory now. 
-
-Let's proceed to the next step.
-
-•	Now that you have cloned the forked repository you need to set your `upstream` and `pull` from the branch you'll be working on. 
+For instructions on contributing to this project, please refer to the `Contributing.md` file.
