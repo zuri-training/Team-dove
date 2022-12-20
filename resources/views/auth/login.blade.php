@@ -31,6 +31,7 @@
         <div class="col-12 col-md-6 mb-4">
             <h1 class="text-main my-4">Sign in to continue</h1>
             <form action="#" method="post">
+                @csrf
         
                 <div class="form-row">
                     <div class="col mb-4">
