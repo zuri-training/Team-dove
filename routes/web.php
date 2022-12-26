@@ -1,10 +1,12 @@
 <?php
 
+
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\ConfirmEmailController;
 use App\Http\Controllers\ResetPasswordController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,6 +17,7 @@ use App\Http\Controllers\ResetPasswordController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 
 Route::get('/', function () { return view('home'); }) -> name('home');
 Route::get('/about', function () { return view('about'); }) -> name('about');

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Import Bootstrap CSS-->
@@ -30,11 +31,16 @@
     <div class="row section align-items-center justify-content-start my-5">
         <div class="col-12 col-md-6 mb-4">
             <h1 class="text-main my-4">Create an account</h1>
-            <form action="#" method="post">
+            <form action="{{ route('register') }}" method="post">
                 @csrf
                 <div class="row">
                     <div class="col mb-3">
-                        <input type="text" name="full_name" id="full_name" class="form-control form-control-lg" placeholder="Full name">
+                        <input type="text" name="firstname" id="firstname" class="form-control form-control-lg" placeholder="Firstname">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mb-3">
+                        <input type="text" name="lastname" id="lastname" class="form-control form-control-lg" placeholder="Lastname">
                     </div>
                 </div>
                 <div class="row">
